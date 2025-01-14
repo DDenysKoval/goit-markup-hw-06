@@ -83,7 +83,7 @@ a {
     }
 }
 
-        /* header section */
+/* -----------------------------header section----------------------------- */
 
 .nav-type .nav-menu {
     font-weight: 500;
@@ -277,11 +277,11 @@ address {
     }
 }
 
-/* Section One */
+/* -----------------------------Section One----------------------------- */
 
 .section-one {
-    padding-top: 112px;
-    padding-bottom: 112px;
+    padding-top: 72px;
+    padding-bottom: 72px;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-mobile@1x.jpg);
     background-repeat: no-repeat;
@@ -321,6 +321,8 @@ address {
     text-align: center;
     max-width: 216px;
     margin: 0 auto;
+    font-size: 36px;
+    line-height: 1.07;
 }
 
 .section-one {
@@ -329,14 +331,6 @@ address {
     max-width: 768px;
     background-size: cover;
 }
-.first-header {
-    max-width: 496px;
-    line-height: 1.07;
-    font-size: 56px;
-}
-.button-set {
-    margin-top: 36px;
-}
 
 @media screen and (min-width: 768px) {
     .section-one {
@@ -344,6 +338,8 @@ address {
             url(../images/people-tablet@1x.jpg);
         max-width: 768px;
         background-size: cover;
+        padding-top: 112px;
+        padding-bottom: 112px;
     }
 
     .first-header {
@@ -373,7 +369,7 @@ address {
     }
 }
 
-/* Section Two */
+/* -----------------------------Section Two----------------------------- */
 
 .section-two {
     padding-top: 96px;
@@ -483,7 +479,7 @@ address {
     }
 }
 
-/* Section Three */
+/* -----------------------------Section Three----------------------------- */
 
 .section-three {
     padding-top: 96px;
@@ -614,7 +610,7 @@ address {
     }
 }
 
-/* Section Four */
+/* -----------------------------Section Four----------------------------- */
 
 .section-four {
     padding-top: 96px;
@@ -947,7 +943,7 @@ address {
     }
 }
 
-/* Mobile Menu */
+/* -----------------------------Mobile Menu----------------------------- */
 
 .modal-mobile-menu.is-open {
     opacity: 1;
